@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li .bookList{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.bookDetail{
+  display: flex;
+}
+
+select{
+  padding: 10px 0px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  width: 50%;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.inputCheckbox {
+  width: 30px;
+  height: 30px;
+}
+
+input,
+textarea {
+  display: block;
+  padding: 10px 8px;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+
+.inputSearch {
+  width: 200px;
+  padding: 10px 0px;
+}
+
+.bookDetail {
+  width: 800px;
+  /* background-color: bisque; */
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.inputCheck {
+  display: flex;
+  gap: 10px
+}
+
+hr{
+  margin: 2px 0px;
+  margin: 0px -20px;
+}
